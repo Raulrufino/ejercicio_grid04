@@ -15,3 +15,11 @@
 
 /* ******************************** */
 
+.activo{
+    color: #F7F7F7;
+    font-weight: 700;
+}
+
+.activo::first-letter{
+    text-decoration: underline;
+}

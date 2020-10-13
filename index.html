@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <!-- SEO = Básico -->
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- SEO = Redes Sociales -->
-    <meta property="og:title" content="" />
-    <meta property="og:type" content="" />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
+<head>
+  <meta charset="utf-8" />
+  <!-- SEO = Básico -->
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
-    <link rel="manifest" href="site.webmanifest" />
-    <!-- icono de acceso para IOS -->
-    <link rel="apple-touch-icon" href="icon.png" />
-    <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+  <!-- SEO = Redes Sociales -->
+  <meta property="og:title" content="" />
+  <meta property="og:type" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="" />
 
-    <!-- links de estilos -->
-    <link rel="stylesheet" href="https://use.typekit.net/hna2idg.css">
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/index.css" />
-    <!-- Se cambia el tema de algunos navegadores -->
-    <meta name="theme-color" content="#fafafa" />
-  </head>
-  <body>
-   
-    <div class="container">
+  <!-- App Web, inidicar al navegador que elementos mostrar en un JSON -->
+  <link rel="manifest" href="site.webmanifest" />
+  <!-- icono de acceso para IOS -->
+  <link rel="apple-touch-icon" href="icon.png" />
+  <!-- Recordar que favicon.ico tiene que estar en el directorio inicial -->
+
+  <!-- links de estilos -->
+  <link rel="stylesheet" href="https://use.typekit.net/hna2idg.css">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <!-- Se cambia el tema de algunos navegadores -->
+  <meta name="theme-color" content="#fafafa" />
+</head>
+
+<body>
+
+  <div class="container">
     <header class="container_header">
       <h1 class="container_header_h1">WebSiteName</h1>
       <!-- nav (el navegador de toda la web) -->
       <nav class="container_header_nav">
-        <a href="" class="link1">Home</a>
+        <a class="activo">Home</a>
         <a href="" class="link2">Setting</a>
         <a href="" class="link3">Profile</a>
         <a href="" class="link4">Help</a>
@@ -43,29 +45,31 @@
     <!-- Main (centro de la página, zona central) -->
     <main class="div_main">
       <form class="main_formulario" action="">
-                      <h4 class="main_formulario_h4">Fill the form below</h4>
-                      <h4 class="main_formulario_h4b">Complete the below form to get instant acces.</h4>
-                      <input type="text" placeholder="Company name"> 
-                      <input type="text" placeholder="Full name">
-                      <input class="form_email" type="email" placeholder="e-mail">
-                      <input type="text" placeholder="Phone">
-                      <select class="main_formulario_select" name="mobiles" id="">
-                      <option value="choose service">Choose service...</option>
-                      <option value="Samsung">Samsung</option>
-                      <option value="Iphone">Iphone</option>
-                      <option value="Huawei">Huawei</option>
-                      </select>
-                    
-                      <button class="form_a" type="submit">Send request</button>
-                    </form>
-        <figure class="main_figure"></figure>
+        <h4 class="main_formulario_h4">Fill the form below</h4>
+        <h4 class="main_formulario_h4b">Complete the below form to get instant acces.</h4>
+        <input type="text" placeholder="Company name">
+        <input type="text" placeholder="Full name">
+
+        <input class="form_email" type="email" placeholder="e-mail">
+        <input type="text" placeholder="Phone">
+        <select class="main_formulario_select" name="mobiles" id="">
+          <option value="choose service">Choose service...</option>
+          <option value="Samsung">Samsung</option>
+          <option value="Iphone">Iphone</option>
+          <option value="Huawei">Huawei</option>
+        </select>
+
+        <button class="form_a" type="submit">Send request</button>
+      </form>
+      <figure class="main_figure"></figure>
     </main>
   </div>
- 
-    <!-- Footer (final de la página, zona inferior) -->
- 
-  
-    <!-- *** Google Analytics *** -->
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+
+  <!-- Footer (final de la página, zona inferior) -->
+
+
+  <!-- *** Google Analytics *** -->
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
 </html>
